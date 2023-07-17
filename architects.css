@@ -1,46 +1,53 @@
 /* google font adding  */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600;700&display=swap');
 
-body{
+body {
   margin: 0;
 }
 
-*{
+* {
   font-family: 'Work Sans', sans-serif;
 }
+
 /* header style adding  */
-header{
+header {
   background-color: rgba(255, 144, 14, 0.10);
-  padding:50px 150px;
+  padding: 50px 150px;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav-title{
-  font-size:2.8rem;
+
+.nav-title {
+  font-size: 2.8rem;
   font-weight: 700;
   color: #131313;
 }
-nav >ul{
+
+nav>ul {
   display: flex;
   gap: 25px;
-  
+
 }
-nav li{
-list-style:none ;
-color: #424242;
-font-family: Work Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
+
+nav li {
+  list-style: none;
+  color: #424242;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
 }
-nav li a{
+
+nav li a {
   text-decoration: none;
 }
+
 /* Banner style adding  */
-.btn{
+.btn {
   padding: 20px;
   border: 0;
   border-radius: 5px;
@@ -49,97 +56,116 @@ nav li a{
   font-size: 20px;
   font-weight: 600;
 }
-.beneer-tex{
+
+.beneer-tex {
   width: 860px;
   margin: auto;
   text-align: center;
   margin-bottom: 50px;
 }
-.banner-description{
-  color:  #727272;
-text-align: center;
-font-family: Work Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+
+.banner-description {
+  color: #727272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
 }
-.benner-img{
+
+.benner-img {
   width: 100%;
   height: 600px;
 }
 
 /* features section start here  */
-.feature-container{
+.feature-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 2.5rem;
   margin-left: 150px;
 }
-.feature-img{
+
+.feature-img {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin-top: 3.5rem;
 }
-.team-img{
-  width:250px;
-  
+
+.team-img {
+  width: 250px;
+
 }
-.feature-tex{
-  /* text-align: center; */
+
+.feature-tex {
   width: 50%;
-  /* margin-top: 200px; */
   padding: 3.5rem;
-  
+
 }
-.quick{
+
+.quick {
   color: #727272;
 }
-.features{
+
+.features {
   color: #FF900E;
 }
+
 /* expearience section start here  */
-.expearience-container{
+.expearience-container {
   display: flex;
-  margin: 50px 150px;
+  margin: 70px 150px;
   gap: 50px;
-  
+
 }
-.expearience-img{
-/* height: 980px;
-width: 700px; */
+.expearience-tex >h2{
+margin-left: 20px;
 }
-.exp-img{
-height: 780px;
-width: 550px;
+.exp-img {
+  height: 880px;
+  width: 550px;
 }
-.box{
-  /* border: 1px solid silver; */
+.teen-year{
+  background-color: #FF900E;
+  padding: 10px;
+  width: 120px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  bottom: 65px;
+  right: 30px;
+}
+
+.box {
   border-radius: 5px;
-  box-shadow:5px 5px 5px 1px  silver;
+  box-shadow: 5px 5px 5px 1px silver;
   padding: 10px;
   margin: 5px;
 }
-.button-tex{
-  font-size: 10px;
-}
-.facts-boxes{
+/* fact section start here */
+.facts-boxes {
   display: flex;
   justify-content: space-around;
   margin: 50px 150px;
 }
-.facts-box{
+
+.facts-box {
   border: 1px solid rgb(239, 226, 224);
   text-align: center;
   padding: 15px;
   width: 150px;
   height: 150px;
   border-radius: 5px;
-  
+
 }
-.facts-tex{
+
+.facts-tex {
   margin-left: 150px;
 }
 
@@ -149,7 +175,4 @@ width: 550px;
 
 
 /* Meadia quary start here  */
-@media screen and (max-width:576px){
-  
-}
-  
+@media screen and (max-width:576px) {}
