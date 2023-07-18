@@ -230,5 +230,91 @@ header{
 .team-img{
   width: auto;
 }
-
+.expearience-container{
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+.exp-img{
+ width:100% ;
+ height:100%;
+}
+.facts-tex{
+  margin: 3rem;
+}
+.facts-boxes{
+  flex-direction: column;
+  margin: 1rem;
+}
+.facts-box{
+  margin: 1em;
+}
+.sponspors-logo{
+  flex-direction: column;
+  margin: 10px;
+}
+.footer-tex{
+  margin: 0;
+}
+}
+/* media queary for mediam device  */
+@media screen and (min-width:576px) and (max-width:960px){
+  header{
+    margin: 0;
+  }
+  nav{
+    margin: 3rem;
+    flex-direction: column-reverse;
+  }
+  .beneer-tex{
+    margin: 10px;
+    text-align:start;
+}
+.banner-description{
+  width: 390px;
+  text-align: justify;
+  padding: 5px;
+}
+.feature-container{
+  flex-direction: column-reverse;
+  margin: 10px;
+}
+.feature-img{
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+}
+.feature-tex{
+  margin: 5px;
+  width: auto;
+  padding: 5px;
+}
+.team-img{
+  width: auto;
+}
+.expearience-container{
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+.exp-img{
+ width:100% ;
+ height:100%;
+}
+.facts-tex{
+  margin: 3rem;
+}
+.facts-boxes{
+  flex-direction: row;
+  margin: 1rem;
+}
+.facts-box{
+  margin: 1em;
+}
+.sponspors-logo{
+  flex-direction: row;
+  margin: 10px;
+}
+.footer-tex{
+  margin: 0;
+}
 }
