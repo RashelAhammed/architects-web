@@ -195,10 +195,40 @@ margin: 70px 150px;
 
 }
 
-
-
-
-
-
 /* Meadia quary start here  */
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+nav{
+  flex-direction: column-reverse;
+  margin: 10px;
+}
+header{
+  margin: 0;
+  padding: 10px;
+}
+.beneer-tex{
+  margin: 10px;
+  text-align:start;
+}
+.banner-description{
+  width: 390px;
+  text-align: justify;
+  padding: 5px;
+}
+.feature-container{
+  flex-direction: column-reverse;
+  margin: 10px;
+}
+.feature-img{
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+}
+.feature-tex{
+  margin: 5px;
+  width: auto;
+  padding: 5px;
+}
+.team-img{
+  width: auto;
+}
+
+}
